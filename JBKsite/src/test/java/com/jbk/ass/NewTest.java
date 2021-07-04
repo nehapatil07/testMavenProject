@@ -7,10 +7,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class NewTest {
-	static WebDriver driver;
+	//static WebDriver driver;
   @Test
   public void f() {
-	  System.setProperty("webdriver.driver.chrome", "Chromedriver.exe");
+	  /*System.setProperty("webdriver.driver.chrome", "Chromedriver.exe");
 	  driver=new ChromeDriver();
 	  driver.get("file:///D:/Offline%20Website/Offline%20Website/index.html");
 	  driver.findElement(By.id("email")).sendKeys("kiran@gmail.com");
@@ -18,6 +18,7 @@ public class NewTest {
 	  driver.findElement(By.xpath("//*[@id=\"form\"]/div[3]/div/button")).click();
 	  String ActTitle=driver.getTitle();
 	  System.out.println(ActTitle);
-	  Assert.assertEquals(ActTitle, "JavaByKiran | Dashboard");
+	  Assert.assertEquals(ActTitle, "JavaByKiran | Dashboard");*/
+	  System.out.println("Hello");
   }
 }
